@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.stream.Collectors;
 
 public class HelloLambdaExpressionsl {
     public static void main(String[] args) {
@@ -81,5 +82,31 @@ public class HelloLambdaExpressionsl {
         //메서드 레퍼런스는 또한 정적 메서드를 참조하며 파라미터를 갖는다.
         //람다 표현식을 사용하면 컬렉션을 나열하고 새로운 컬렉션으로 변경할 수 있다.
         //또한 컬렉션에서 하나의 엘리먼트를 선택하는 기능도 간단하게 할 수 있다.
+
+        //엘리먼트 찾기
+        final List<String> startWithN = new ArrayList<String>();
+        for(String name : friends) {
+            if(name.startsWith("N")){
+                startWithN.add(name);
+            }
+        }
+
+        final  List<String> startWithN2 = friends.stream()
+                .filter(name -> name.startsWith("N"))
+                .collect(Collectors.toList());
+
+        //filter() 메서드는 boolean 결과를 리턴하는 람다표현식이 필요하다.
+        //결과를 collect()메서드를 사용하면 리스트로 변경한다.
+
+        System.out.println(String.format("Found %d names", startWithN2.size()));
+
+        //filter() 메서드는 map() 메서드처럼 이터레이터를 리턴하지만 그 외에는 비슷한 부분이 거의 없다.
+        //map() 메서드가 입력과 같은 크기의 컬렉션을 리턴하는 반면에 filter()메서드는 그렇지 않다.
+        //0부터 최대 입력 컬렉션에 있는 엘리먼트의 수만큼의 결과 컬렉션을 리턴할 수 있다.
+        //map()과 달리 filter()가 리턴한 결과 컬렉션의 엘리먼트는 입력 컬렉션에 있는 엘리먼트의 서브셋이다.
+        //즉, filter() 메서드에 의해 처리된 결과 컬렉션의 엘리먼트들은 모두 입력 컬렉션의 엘리먼트들 중 하나라는 의미다.
+
+
+
     }
 }
