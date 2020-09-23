@@ -107,6 +107,9 @@ public class HelloLambdaExpressionsl {
         //즉, filter() 메서드에 의해 처리된 결과 컬렉션의 엘리먼트들은 모두 입력 컬렉션의 엘리먼트들 중 하나라는 의미다.
 
 
+        //Map vs Filter
+        // 맵은 쫙 펼치는 것 필터는 줄이는 것을 말한다.
+
 
     }
 }

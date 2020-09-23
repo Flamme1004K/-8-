@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="50015d2a-27a5-4a50-ac0b-a7072cfaa2d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionLexicalScopingAndClosures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ElementJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PickALongest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PickAnElementt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PowerOfLambda/HelloLambdaExpressionsl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PowerOfLambda/HelloLambdaExpressionsl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloLambdaExpressionsl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloLambdaExpressionsl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,15 +47,24 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ElementJoin">
+    <configuration name="ElementJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ElementJoin" />
+      <module name="PowerOfLambda" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloLambdaExpressionsl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloLambdaExpressionsl" />
       <module name="PowerOfLambda" />
@@ -42,12 +72,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PickALongest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PickALongest" />
+      <module name="PowerOfLambda" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PickAnElementt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PickAnElementt" />
+      <module name="PowerOfLambda" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElementJoin" />
+        <item itemvalue="Application.PickALongest" />
+        <item itemvalue="Application.PickAnElementt" />
         <item itemvalue="Application.HelloLambdaExpressionsl" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -59,41 +107,71 @@
       <option name="presentableId" value="Default" />
       <updated>1600668641603</updated>
       <workItem from="1600668883174" duration="6558000" />
-      <workItem from="1600734719275" duration="5275000" />
+      <workItem from="1600734719275" duration="5553000" />
+      <workItem from="1600742262698" duration="599000" />
+      <workItem from="1600750413108" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="648" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1600671646526">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="648" y="322" key="#com.intellij.fileTypes.FileTypeChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600671646526" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600681776700">
+    <state x="815" y="289" key="FileChooserDialogImpl" timestamp="1600845242302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600681776700" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600681776700">
+    <state x="815" y="289" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600845242302" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600850158109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600681776700" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600681776699">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600850158109" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600850158109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600681776699" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600681776700">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600850158109" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600850158109">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600681776700" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600850158109" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600850158109">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600850158109" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1600845267816">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600845267816" />
+    <state x="630" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600845954455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="630" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600845954455" />
     <state x="653" y="251" width="745" height="608" key="find.popup" timestamp="1600736045514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="653" y="251" width="745" height="608" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600736045514" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600736198109">
+    <state x="730" y="393" width="949" height="581" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1600845266928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600736198109" />
+    <state x="730" y="393" width="949" height="581" key="org.intellij.images.editor.actions.BackgroundImageDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600845266928" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600849612637">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1600849612637" />
   </component>
 </project>
